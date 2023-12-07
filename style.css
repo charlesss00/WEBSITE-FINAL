@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dancing+Script:wght@700&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mountains+of+Christmas:wght@700&family=Nova+Square&family=Playfair+Display:ital@1&family=Young+Serif&display=swap');
+
+body{
+    background-image: url(backg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    line-height: 1.5;
+    align-items: center;
+}
+h2{
+    font-family: 'Comfortaa', sans-serif;
+    color: red;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h1{
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h3{
+    font-family: 'Young Serif', serif;
+    font-size: 22px;
+    color: #12486B;
+}
+h4{
+    font-family: 'Young Serif', serif;
+    font-size: 50px;
+    color: green;
+}
+.font{
+    font-family: 'Young Serif', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #12486B;
+}
+h5{
+    font-family: 'Young Serif', serif;
+    font-size: 20px;
+    color: #12486B;
+}
+h6{
+    font-family: 'Young Serif', serif;
+    font-size: 40px;
+    color: crimson;
+}
+.click{
+    align-items: center;
+}
+.texter{
+    border-radius: 1rem;
+    background-image: url(pix.jfif);
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+    color: black;
+    width: 30%;
+    margin-left: 500px;
+    height: 70vh;
+    margin-top: 70px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 5px solid black;
+}
+.texter:hover{
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0 3px 6px black, 0 3 6px black;
+    transform: scale(1.03);
+}
+.text{
+    border-radius: 1rem;
+    background: #12486b;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    font-family: 'Comfortaa', sans-serif;
+    color: gold;
+}
+.justifier{
+text-align: justify
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    transition: 0.3s;
+}
+.pos_cen{
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    font-size: 40px;
+}
+.column{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+.column:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.img_deg
+{
+    float: left;
+    width: 40%;
+    position: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 45%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+nav{
+    background: #12486B;
+    height: 80px;
+    width: 100%;
+    background: transparent;
+}
+nav a:hover{
+    background: red;
+    color: #000;
+}
+nav a.active{
+    background: #000;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.3e,;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    padding: 20px;
+    justify-content: center;
+}
+.footerBottom p{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+    width: 100%;
+    float: left;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+.container{
+    background: linear-gradient(rgba(0,8,51,0.9));
+    margin-top: 10px;
+}
+input[type=text]{
+    padding: 6px;
+    margin-top: 13px;
+    font-size: 17px;
+    border: none;
+}
+.container button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 13px;
+    margin-right: 30px;
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+}
+.search-bar button:hover{
+    background: red;
+}
+

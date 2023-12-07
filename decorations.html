@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>My Website</title>
+</head>
+<style>
+    body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;;
+    line-height: 1.5;
+    align-items: center;
+    font-family: sans-serif;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+nav{
+    background: transparent;
+    filter: blur(1);
+    height: 80px;
+    width: 100%;
+}
+nav a:hover{
+    background: red;
+    color: #000;
+}
+nav a.active{
+    background: #000;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.3e,;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    padding: 20px;
+    justify-content: center;
+}
+.footerBottom p{
+    color: rgb(252, 252, 252);
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+h7{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px black, 0 10px 10px black;
+    transition: .4s;
+    background: white;
+}
+.content:hover{
+    box-shadow: 0 3px 6px black, 0 3 6px black;
+    transform: translate(0px, -8px);
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+p{
+    text-align: center;
+    color: white;
+    padding-top: 0 8px;
+}
+h8{
+    font-size: 26px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+li{
+    padding-top: 5px;
+}
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    margin: 3px;
+}
+.checked{
+    color: orange;
+}
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.buy-1{
+    background: navy;
+}
+.buy-2{
+    background: orange;
+}
+.buy-3{
+    background: black;
+}
+.buy-4{
+    background: #45474B;
+}
+@media(max-width:1000px){
+    .content{
+        width: 45px
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100px
+    }
+}
+</style>
+ <body>
+     <div class="footerNav">
+         <nav>
+         <label class="logo" style="color: gold;">Xmas Treasures</label>
+         <ul>
+             <li><a href="DUERME - FINAL OUTPUT CC1.html">HOME</a></li>
+             <li><a href="page1.html">ABOUT</a></li>
+             <li><a href="page4.html">CONTACT</a></li>
+             <li><a href="page3.html">MY INFO</a></li>
+         </ul>  
+         </nav>
+    <div class="gallery">
+        <div class="content">
+            <img src="golden.jpg">
+            <h7>Christmas Balls</h7>
+            <p>hi</p>
+            <h8>₱250</h8>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-1">BUY NOW</button>
+        </div>
+
+        <div class="content">
+            <img src="sucks.jfif">
+            <h7>Christmas Sock</h7>
+            <p>hi</p>
+            <h8>₱170</h8>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-2">BUY NOW</button>
+        </div>
+            
+        <div class="content">
+            <img src="wreath.jpg">
+            <h7>Christmas Wreath</h7>
+            <p>hi</p>
+            <h8>₱2000</h8>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <button class="buy-3">BUY NOW</button>
+        </div>
+
+        <div class="content">
+            <img src="lights.jfif">
+            <h7>Christmas Lights</h7>
+            <p>hi</p>
+            <h8>₱170</h8>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button class="buy-4">BUY NOW</button>
+        </div>
+    </div>
+ </body>
+
+</body>
+</html>
